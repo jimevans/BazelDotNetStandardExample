@@ -5,7 +5,7 @@ core_library(
     srcs = glob([
         "*.cs",
     ]),
-    out = "BazelDotNetStandardExample.dll",
+    out = "ClassLibrary1.dll",
     dotnet_context_data = "@io_bazel_rules_dotnet//:core_context_data",
     visibility = ["//visibility:public"],
     deps = [
